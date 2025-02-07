@@ -13,7 +13,7 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[0].id)
 
 # OpenAI API key
-openai.api_key = 'your_openai_api_key'  # Replace with your OpenAI API key
+# openai.api_key = 'your_openai_api_key'  # Replace with your OpenAI API key
 
 def speak(audio):
     engine.say(audio)
